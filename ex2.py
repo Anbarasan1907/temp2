@@ -1,0 +1,13 @@
+import pandas as pd
+data=pd.read_csv('car_price_prediction_with_missing.csv')
+print("Sample data")
+print(data.head(5))
+mean_val=data['Price'].mean()
+print("Mean value of the Price")
+print(mean_val)
+median_val=data['Mileage'].median()
+print("Median value of the Mileage")
+print(median_val)
+std_dev=data['Price'].std()
+print("Standard Deviation of the Price")
+print(std_dev)
