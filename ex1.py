@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 data=pd.read_csv(r"car_price_prediction_with_missing.csv")
 print(data)
-print("The first 5 datas of the file are not changed")
+print("The first 5 datas of the file are given")
 print(data.head(5))
 print("Info of the data")
 print(data.info())
